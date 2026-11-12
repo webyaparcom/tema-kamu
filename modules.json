@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Görüşme talep et",
+          "en": "Request a meeting",
+          "ar": "اطلب اجتماعًا"
         },
         "cta_url": "teklif-al"
       },
@@ -1533,30 +1544,30 @@
         "bg": "var(--mx-site-bg, #ffffff)",
         "radius": "16px",
         "eyebrow": {
-          "tr": "Ofis & tedarik",
-          "en": "Office & supplies",
-          "ar": "مكتب وتوريد"
+          "tr": "Kamu danışmanlığı",
+          "en": "Public-sector consulting",
+          "ar": "استشارات القطاع العام"
         },
         "title": {
-          "tr": "Sıradan siparişe",
-          "en": "From order to delivery",
-          "ar": "من الطلب إلى التسليم"
+          "tr": "Dosyanız eksiksiz, süreciniz düzenli",
+          "en": "A complete file, an orderly process",
+          "ar": "ملف مكتمل وإجراءات منظّمة"
         },
         "metin": {
-          "tr": "Ekvit Ofis, ofis ve tedarik sağlar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Ekvit supplies office goods. Images are representative and text is fictional.",
-          "ar": "يوفر إكفيت مستلزمات مكتبية. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Kamu kurumları, belediyeler ve kamuyla çalışan firmalar için ihale dosyası hazırlığı, mevzuat uygunluk incelemesi ve başvuru takibi.",
+          "en": "Tender file preparation, regulatory compliance review and application follow-up for public bodies, municipalities and firms that work with the public sector.",
+          "ar": "إعداد ملفات المناقصات ومراجعة الامتثال للتشريعات ومتابعة الطلبات للجهات العامة والبلديات والشركات التي تتعامل مع القطاع العام."
         },
         "cta1": {
-          "tr": "Ürün listesi",
-          "en": "Product list",
-          "ar": "قائمة منتجات"
+          "tr": "Hizmetlerimiz",
+          "en": "Our services",
+          "ar": "خدماتنا"
         },
         "cta1_url": "hizmetler",
         "cta2": {
-          "tr": "Fiyat iste",
-          "en": "Request price",
-          "ar": "اطلب سعر"
+          "tr": "Görüşme talep et",
+          "en": "Request a meeting",
+          "ar": "اطلب اجتماعًا"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Nasıl yardımcı olabiliriz?",
-          "en": "How can we help?",
-          "ar": "كيف يمكننا المساعدة؟"
+          "tr": "Rakamlarla Ekvit Ofis",
+          "en": "Ekvit Ofis in numbers",
+          "ar": "Ekvit Ofis بالأرقام"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1615,11 +1626,11 @@
         {
           "deger": 350,
           "sonek": "",
-          "ikon": "task_alt",
+          "ikon": "description",
           "etiket": {
-            "tr": "Dosya",
-            "en": "Files",
-            "ar": "ملفات"
+            "tr": "Hazırlanan dosya",
+            "en": "Files prepared",
+            "ar": "ملف تم إعداده"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1628,13 +1639,13 @@
           }
         },
         {
-          "deger": 100,
-          "sonek": "%",
-          "ikon": "schedule",
+          "deger": 40,
+          "sonek": "",
+          "ikon": "account_balance",
           "etiket": {
-            "tr": "Teslim zamanında",
-            "en": "On-time delivery",
-            "ar": "التسليم في الوقت"
+            "tr": "Hizmet verilen kurum",
+            "en": "Institutions served",
+            "ar": "جهة تمت خدمتها"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1648,8 +1659,8 @@
           "ikon": "forum",
           "etiket": {
             "tr": "Yanıt kanalı",
-            "en": "Response channel",
-            "ar": "قناة الرد"
+            "en": "Contact channels",
+            "ar": "قناة تواصل"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1662,9 +1673,9 @@
           "sonek": "",
           "ikon": "groups",
           "etiket": {
-            "tr": "Ofis personeli",
-            "en": "Office staff",
-            "ar": "طاقم المكتب"
+            "tr": "Ekip üyesi",
+            "en": "Team members",
+            "ar": "عضو في الفريق"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1695,98 +1706,98 @@
         "badgebg": "#2E6BFF",
         "badgecolor": "#ffffff",
         "badge": {
-          "tr": "Ofis",
-          "en": "The office",
-          "ar": "المكتب"
+          "tr": "Hizmetler",
+          "en": "Services",
+          "ar": "الخدمات"
         },
         "title": {
-          "tr": "Nasıl yardımcı olabiliriz?",
-          "en": "How can we help?",
-          "ar": "كيف يمكننا المساعدة؟"
+          "tr": "Kamu süreçlerinde destek",
+          "en": "Support in public procedures",
+          "ar": "دعم في الإجراءات العامة"
         },
         "description": {
-          "tr": "Dosyadan rapora; vadesinden sonrasına.",
-          "en": "From file to report; from deadline to beyond.",
-          "ar": "من الملف إلى التقرير؛ من الميعاد إلى ما بعده."
+          "tr": "Dosya hazırlığından başvuru takibine; süreler kaçmasın diye.",
+          "en": "From file preparation to application follow-up, so that deadlines are not missed.",
+          "ar": "من إعداد الملف إلى متابعة الطلب، حتى لا تفوت المواعيد."
         }
       },
       "data": [
         {
-          "icon": "account_balance",
+          "icon": "gavel",
           "name": {
-            "tr": "Beyanname",
-            "en": "Declaration",
-            "ar": "الإقرار"
+            "tr": "İhale dosyası hazırlığı",
+            "en": "Tender file preparation",
+            "ar": "إعداد ملف المناقصة"
           },
           "description": {
-            "tr": "Aylık ve yıllık beyan (demo).",
-            "en": "Monthly and annual declaration (demo).",
-            "ar": "إقرار شهري وسنوي (تجريبي)."
+            "tr": "Teknik ve idari şartnameye göre belge listesi ve dosya düzeni.",
+            "en": "Document checklist and file layout based on the technical and administrative specifications.",
+            "ar": "قائمة المستندات وترتيب الملف وفق المواصفات الفنية والإدارية."
+          }
+        },
+        {
+          "icon": "fact_check",
+          "name": {
+            "tr": "Mevzuat uygunluk incelemesi",
+            "en": "Regulatory compliance review",
+            "ar": "مراجعة الامتثال للتشريعات"
+          },
+          "description": {
+            "tr": "Belge ve başvuruların ilgili mevzuata uygunluğu kontrol edilir.",
+            "en": "Documents and applications are checked against the relevant legislation.",
+            "ar": "تُراجع المستندات والطلبات وفق التشريعات ذات الصلة."
+          }
+        },
+        {
+          "icon": "forward_to_inbox",
+          "name": {
+            "tr": "Başvuru ve yazışma takibi",
+            "en": "Application and correspondence follow-up",
+            "ar": "متابعة الطلبات والمراسلات"
+          },
+          "description": {
+            "tr": "Kurumlara yapılan başvurular, yazışmalar ve cevap süreleri izlenir.",
+            "en": "Applications to institutions, correspondence and reply deadlines are tracked.",
+            "ar": "تُتابَع الطلبات المقدّمة للجهات والمراسلات ومواعيد الردود."
           }
         },
         {
           "icon": "description",
           "name": {
-            "tr": "Taslak denetimi",
-            "en": "Draft review",
-            "ar": "مراجعة المسودة"
+            "tr": "Rapor ve sunum hazırlığı",
+            "en": "Report and presentation drafts",
+            "ar": "إعداد التقارير والعروض"
           },
           "description": {
-            "tr": "Belge ve fatura denetimi.",
-            "en": "Document and invoice review.",
-            "ar": "مراجعة المستندات والفواتير."
+            "tr": "Dönem sonu faaliyet raporu ve kurul sunumu taslakları.",
+            "en": "Drafts of period-end activity reports and board presentations.",
+            "ar": "مسودات تقارير النشاط في نهاية الفترة وعروض المجالس."
           }
         },
         {
-          "icon": "groups",
+          "icon": "folder_open",
           "name": {
-            "tr": "Ekip ofisi",
-            "en": "Team office",
-            "ar": "مكتب الفريق"
+            "tr": "Arşiv ve belge düzeni",
+            "en": "Archive and document order",
+            "ar": "الأرشفة وتنظيم المستندات"
           },
           "description": {
-            "tr": "Toplantı ve dosya yönetimi.",
-            "en": "Meeting and file management.",
-            "ar": "إدارة الاجتماعات والملفات."
+            "tr": "Dosyalar imza ve tarih kaydıyla düzenli arşivlenir.",
+            "en": "Files are archived in order, with signature and date records.",
+            "ar": "تُؤرشف الملفات بانتظام مع سجل التوقيع والتاريخ."
           }
         },
         {
-          "icon": "task_alt",
+          "icon": "event",
           "name": {
-            "tr": "Rapor",
-            "en": "Report",
-            "ar": "التقارير"
+            "tr": "Süre ve takvim takibi",
+            "en": "Deadline and calendar tracking",
+            "ar": "متابعة المواعيد والتقويم"
           },
           "description": {
-            "tr": "Dönem sonu rapor (demo).",
-            "en": "End-of-period report (demo).",
-            "ar": "تقرير نهاية الفترة (تجريبي)."
-          }
-        },
-        {
-          "icon": "verified",
-          "name": {
-            "tr": "Uygunluk",
-            "en": "Compliance",
-            "ar": "المطابقة"
-          },
-          "description": {
-            "tr": "Standart ve kayıt kontrolü.",
-            "en": "Standards and record control.",
-            "ar": "تحقق المعايير والسجلات."
-          }
-        },
-        {
-          "icon": "schedule",
-          "name": {
-            "tr": "Takvim",
-            "en": "Calendar",
-            "ar": "التقويم"
-          },
-          "description": {
-            "tr": "Vade ve hatırlatma listesi.",
-            "en": "Deadline and reminder list.",
-            "ar": "قائمة المواعيد النهائية والتنبيهات."
+            "tr": "İhale, başvuru ve itiraz sürelerinin hatırlatma takvimi.",
+            "en": "A reminder calendar for tender, application and objection deadlines.",
+            "ar": "تقويم تذكير بمواعيد المناقصات والطلبات والاعتراضات."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Çalışma akışı",
+          "en": "Workflow",
+          "ar": "سير العمل"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Dört adımda dosya",
+          "en": "Your file in four steps",
+          "ar": "ملفك في أربع خطوات"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Ön görüşmeden teslime.",
+          "en": "From the first meeting to submission.",
+          "ar": "من الاجتماع الأول إلى التسليم."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1836,53 +1847,53 @@
         {
           "year": "01",
           "title": {
-            "tr": "Yanıt",
-            "en": "Intake",
-            "ar": "الاستقبال"
+            "tr": "Ön görüşme",
+            "en": "Initial meeting",
+            "ar": "اجتماع أولي"
           },
           "text": {
-            "tr": "Dosya ve vaka açılması.",
-            "en": "Opening of the file and case.",
-            "ar": "فتح الملف والقضية."
+            "tr": "İhtiyaç ve süre takvimi birlikte netleştirilir.",
+            "en": "Needs and the deadline calendar are clarified together.",
+            "ar": "تُحدَّد الاحتياجات والجدول الزمني معًا."
           }
         },
         {
           "year": "02",
           "title": {
-            "tr": "İzleme",
-            "en": "Tracking",
-            "ar": "التتبع"
+            "tr": "Belge incelemesi",
+            "en": "Document review",
+            "ar": "مراجعة المستندات"
           },
           "text": {
-            "tr": "Belge ve dosya takibi.",
-            "en": "Document and file tracking.",
-            "ar": "تتبع المستندات والملفات."
+            "tr": "Eldeki belgeler ve eksikler listelenir.",
+            "en": "Available documents and gaps are listed.",
+            "ar": "تُدرج المستندات المتوفرة والنواقص."
           }
         },
         {
           "year": "03",
           "title": {
-            "tr": "Bulgu",
-            "en": "Findings",
-            "ar": "النتائج"
+            "tr": "Dosya hazırlığı",
+            "en": "File preparation",
+            "ar": "إعداد الملف"
           },
           "text": {
-            "tr": "Tespit ve açıklama.",
-            "en": "Findings and explanation.",
-            "ar": "نتائج التوضيح."
+            "tr": "Belgeler düzenlenir, taslaklar onayınıza sunulur.",
+            "en": "Documents are organised and drafts are submitted for your approval.",
+            "ar": "تُنظَّم المستندات وتُقدَّم المسودات لموافقتك."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Teslim",
-            "en": "Handover",
-            "ar": "التسليم"
+            "tr": "Teslim ve takip",
+            "en": "Submission and follow-up",
+            "ar": "التسليم والمتابعة"
           },
           "text": {
-            "tr": "İmza ve dosya kapatma.",
-            "en": "Signature and file closing.",
-            "ar": "التوقيع وإغلاق الملف."
+            "tr": "Dosya teslim edilir, kurum yazışmaları izlenir.",
+            "en": "The file is submitted and institutional correspondence is monitored.",
+            "ar": "يُسلَّم الملف وتُتابَع مراسلات الجهة."
           }
         }
       ],
@@ -1916,9 +1927,9 @@
           "ar": "فريقنا"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Dosyanızla ilgilenenler",
+          "en": "The people handling your file",
+          "ar": "من يتولون ملفك"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1932,42 +1943,42 @@
         {
           "name": "Gülay A.",
           "role": {
-            "tr": "Baş uzman",
-            "en": "Chief specialist",
-            "ar": "خبير رئيسي"
+            "tr": "Kıdemli danışman",
+            "en": "Senior consultant",
+            "ar": "مستشارة أولى"
           },
           "bio": {
-            "tr": "11 yıl beyan.",
-            "en": "11 years of declaration.",
-            "ar": "١١ عامًا في الإقرار."
+            "tr": "11 yıl kamu ihale mevzuatı ve dosya hazırlığı.",
+            "en": "11 years in public procurement rules and file preparation.",
+            "ar": "11 سنة في أنظمة المشتريات العامة وإعداد الملفات."
           },
           "img": ""
         },
         {
           "name": "Onur B.",
           "role": {
-            "tr": "Denetmen",
-            "en": "Auditor",
-            "ar": "مدقق"
+            "tr": "Mevzuat uzmanı",
+            "en": "Compliance specialist",
+            "ar": "أخصائي الامتثال"
           },
           "bio": {
-            "tr": "8 yıl fatura.",
-            "en": "8 years of invoicing.",
-            "ar": "٨ سنوات في الفواتير."
+            "tr": "8 yıl uygunluk incelemesi ve belge denetimi.",
+            "en": "8 years in compliance review and document checks.",
+            "ar": "8 سنوات في مراجعة الامتثال وفحص المستندات."
           },
           "img": ""
         },
         {
           "name": "Deniz Ç.",
           "role": {
-            "tr": "Sekreter",
-            "en": "Office secretary",
-            "ar": "سكرتير"
+            "tr": "Dosya sorumlusu",
+            "en": "File coordinator",
+            "ar": "منسقة الملفات"
           },
           "bio": {
-            "tr": "4 yıl dosya.",
-            "en": "4 years of files.",
-            "ar": "٤ سنوات في الملفات."
+            "tr": "4 yıl arşiv ve başvuru takibi.",
+            "en": "4 years in archiving and application follow-up.",
+            "ar": "4 سنوات في الأرشفة ومتابعة الطلبات."
           },
           "img": ""
         }
@@ -1998,13 +2009,13 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Yorumlar",
+          "en": "Reviews",
+          "ar": "التقييمات"
         },
         "title": {
-          "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
+          "tr": "Çalıştığımız kurumlar ne diyor?",
+          "en": "What our clients say",
           "ar": "ماذا يقول عملاؤنا؟"
         },
         "description": {
@@ -2019,46 +2030,46 @@
         {
           "name": "C. Yılmaz.",
           "role": {
-            "tr": "Şirket",
-            "en": "Corporate client",
-            "ar": "شركة"
+            "tr": "Kurum yetkilisi",
+            "en": "Institution official",
+            "ar": "مسؤول في جهة"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Rapor zamanında; açıklama net.",
-            "en": "Report on time; clear explanation.",
-            "ar": "التقرير في الوقت؛ الشرح واضح."
+            "tr": "Dosya eksiksiz teslim edildi; açıklamalar netti.",
+            "en": "The file was submitted complete; the explanations were clear.",
+            "ar": "سُلِّم الملف مكتملًا وكانت التوضيحات واضحة."
           }
         },
         {
           "name": "V. Aksoy.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Client",
-            "ar": "زبون"
+            "tr": "Firma yetkilisi",
+            "en": "Company representative",
+            "ar": "ممثل شركة"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Dosyım düzenli; vade hatırlatması geldi.",
-            "en": "My file is organized; deadline reminder arrived.",
-            "ar": "ملفي منظم؛ جاء تنبيه الميعاد."
+            "tr": "Süre takvimi sayesinde hiçbir başvuruyu kaçırmadık.",
+            "en": "Thanks to the deadline calendar we did not miss a single application.",
+            "ar": "بفضل تقويم المواعيد لم تفتنا أي معاملة."
           }
         },
         {
           "name": "E. Sarı.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Client",
-            "ar": "زبون"
+            "tr": "Dernek yöneticisi",
+            "en": "Association manager",
+            "ar": "مدير جمعية"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Süreç açık; fatura düzenli.",
-            "en": "Process is clear; invoice is regular.",
-            "ar": "العملية واضحة؛ الفاتورة منتظمة."
+            "tr": "Yazışmalar düzenli arşivlendi; sürece hâkim olduk.",
+            "en": "Correspondence was archived neatly; we stayed on top of the process.",
+            "ar": "أُرشفت المراسلات بانتظام وبقينا على اطلاع بالإجراءات."
           }
         }
       ],
@@ -2103,17 +2114,17 @@
         "radius": "6px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Dosyanızın arkasında",
+          "en": "Behind your file",
+          "ar": "خلف ملفك"
         },
         "title": {
-          "tr": "Nasıl yardımcı olabiliriz?",
-          "en": "How can we help?",
-          "ar": "كيف يمكننا المساعدة؟"
+          "tr": "Kamu süreçlerinde destek",
+          "en": "Support in public procedures",
+          "ar": "دعم في الإجراءات العامة"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilidir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
@@ -2126,14 +2137,14 @@
       "data": [
         {
           "baslik": {
-            "tr": "Beyanname",
-            "en": "Declaration",
-            "ar": "الإقرار"
+            "tr": "İhale dosyası hazırlığı",
+            "en": "Tender file preparation",
+            "ar": "إعداد ملف المناقصة"
           },
           "metin": {
-            "tr": "Aylık ve yıllık beyan (demo).",
-            "en": "Monthly and annual declaration (demo).",
-            "ar": "إقرار شهري وسنوي (تجريبي)."
+            "tr": "Teknik ve idari şartnameye göre belge listesi ve dosya düzeni.",
+            "en": "Document checklist and file layout based on the technical and administrative specifications.",
+            "ar": "قائمة المستندات وترتيب الملف وفق المواصفات الفنية والإدارية."
           },
           "img": "hukuk-kitaplik.webp",
           "alt": {
@@ -2145,14 +2156,14 @@
         },
         {
           "baslik": {
-            "tr": "Taslak denetimi",
-            "en": "Draft review",
-            "ar": "مراجعة المسودة"
+            "tr": "Mevzuat uygunluk incelemesi",
+            "en": "Regulatory compliance review",
+            "ar": "مراجعة الامتثال للتشريعات"
           },
           "metin": {
-            "tr": "Belge ve fatura denetimi.",
-            "en": "Document and invoice review.",
-            "ar": "مراجعة المستندات والفواتير."
+            "tr": "Belge ve başvuruların ilgili mevzuata uygunluğu kontrol edilir.",
+            "en": "Documents and applications are checked against the relevant legislation.",
+            "ar": "تُراجع المستندات والطلبات وفق التشريعات ذات الصلة."
           },
           "img": "hukuk-kapi.webp",
           "alt": {
@@ -2164,14 +2175,14 @@
         },
         {
           "baslik": {
-            "tr": "Ekip ofisi",
-            "en": "Team office",
-            "ar": "مكتب الفريق"
+            "tr": "Başvuru ve yazışma takibi",
+            "en": "Application and correspondence follow-up",
+            "ar": "متابعة الطلبات والمراسلات"
           },
           "metin": {
-            "tr": "Toplantı ve dosya yönetimi.",
-            "en": "Meeting and file management.",
-            "ar": "إدارة الاجتماعات والملفات."
+            "tr": "Kurumlara yapılan başvurular, yazışmalar ve cevap süreleri izlenir.",
+            "en": "Applications to institutions, correspondence and reply deadlines are tracked.",
+            "ar": "تُتابَع الطلبات المقدّمة للجهات والمراسلات ومواعيد الردود."
           },
           "img": "hukuk-masa-detay.webp",
           "alt": {
@@ -2229,14 +2240,14 @@
         "radius": "6px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Çalıştığımız kurum türleri",
+          "en": "Types of institutions we work with",
+          "ar": "أنواع الجهات التي نعمل معها"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal kurum adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional institution names; they do not belong to a real organisation.",
+          "ar": "أسماء جهات افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2246,22 +2257,22 @@
       },
       "data": [
         {
-          "name": "Demo Mükellef"
+          "name": "Demo Belediye"
         },
         {
-          "name": "Demo İştirak"
+          "name": "Demo Kaymakamlık"
         },
         {
-          "name": "Demo Arşiv"
+          "name": "Demo Meslek Odası"
         },
         {
-          "name": "Demo Denetim"
-        },
-        {
-          "name": "Demo Şirket"
+          "name": "Demo Üniversite"
         },
         {
           "name": "Demo Dernek"
+        },
+        {
+          "name": "Demo Vakıf"
         }
       ],
       "veri": {
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Belgeler nasıl teslim edilir?",
+            "en": "How are documents handed over?",
+            "ar": "كيف تُسلَّم المستندات؟"
+          },
+          "answer": {
+            "tr": "Ofise elden ya da dijital kanaldan; teslim edilen her belge listelenir.",
+            "en": "In person at the office or via a digital channel; every document handed over is listed.",
+            "ar": "تسليمًا باليد في المكتب أو عبر قناة رقمية؛ ويُسجَّل كل مستند مُسلَّم."
+          },
           "soru": {
-            "tr": "Belgeler nasıl verilir?",
-            "en": "How are the documents submitted?",
-            "ar": "كيف تُسلَّم المستندات?"
+            "tr": "Belgeler nasıl teslim edilir?",
+            "en": "How are documents handed over?",
+            "ar": "كيف تُسلَّم المستندات؟"
           },
           "cevap": {
-            "tr": "Ofis teslimi veya dijital kanal; demo metindir.",
-            "en": "Office delivery or digital channel; this is a demo text.",
-            "ar": "تسليم في المكتب أو قناة رقمية؛ هذا نص تجريبي."
+            "tr": "Ofise elden ya da dijital kanaldan; teslim edilen her belge listelenir.",
+            "en": "In person at the office or via a digital channel; every document handed over is listed.",
+            "ar": "تسليمًا باليد في المكتب أو عبر قناة رقمية؛ ويُسجَّل كل مستند مُسلَّم."
           }
         },
         {
+          "question": {
+            "tr": "Resmî başvuruyu siz mi yaparsınız?",
+            "en": "Do you make the official application?",
+            "ar": "هل تقدّمون الطلب الرسمي؟"
+          },
+          "answer": {
+            "tr": "Başvuru sahibi kurum ya da firma olarak kalır; biz dosyayı hazırlar, takibe yardımcı oluruz.",
+            "en": "The applicant remains the institution or company; we prepare the file and help with follow-up.",
+            "ar": "يبقى مقدّم الطلب هو الجهة أو الشركة؛ نحن نُعدّ الملف ونساعد في المتابعة."
+          },
           "soru": {
-            "tr": "Fiyat nasıl belirlenir?",
-            "en": "How is the price set?",
-            "ar": "كيف يحدد السعر?"
+            "tr": "Resmî başvuruyu siz mi yaparsınız?",
+            "en": "Do you make the official application?",
+            "ar": "هل تقدّمون الطلب الرسمي؟"
           },
           "cevap": {
-            "tr": "Kalem ve yoğunluğa göre; demo metin örnek vermez.",
-            "en": "Based on items and volume; this demo text gives no example.",
-            "ar": "حسب البنود والحجم؛ ولا يعطي هذا النص التجريبي مثالاً."
+            "tr": "Başvuru sahibi kurum ya da firma olarak kalır; biz dosyayı hazırlar, takibe yardımcı oluruz.",
+            "en": "The applicant remains the institution or company; we prepare the file and help with follow-up.",
+            "ar": "يبقى مقدّم الطلب هو الجهة أو الشركة؛ نحن نُعدّ الملف ونساعد في المتابعة."
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
             "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
             "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
           }
         },
         {
+          "question": {
+            "tr": "Ücretlendirme nasıl yapılır?",
+            "en": "How are fees set?",
+            "ar": "كيف تُحدَّد الأتعاب؟"
+          },
+          "answer": {
+            "tr": "Dosya kapsamına ve süreye göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
+            "en": "Fees are set by quote according to the scope and timeline; no general range is shown in this demo text.",
+            "ar": "تُحدَّد الأتعاب بعرض سعر حسب نطاق الملف والمدة؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+          },
           "soru": {
-            "tr": "Fiyatlar nasıl belirlenir?",
-            "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
+            "tr": "Ücretlendirme nasıl yapılır?",
+            "en": "How are fees set?",
+            "ar": "كيف تُحدَّد الأتعاب؟"
           },
           "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Dosya kapsamına ve süreye göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
+            "en": "Fees are set by quote according to the scope and timeline; no general range is shown in this demo text.",
+            "ar": "تُحدَّد الأتعاب بعرض سعر حسب نطاق الملف والمدة؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
           }
         }
       ],
@@ -2406,9 +2457,9 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "6px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Görüşme talebi",
+          "en": "Meeting request",
+          "ar": "طلب اجتماع"
         },
         "description": {
           "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
@@ -2421,7 +2472,7 @@
           "ar": "Ekvit Ofis"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilidir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
@@ -2434,9 +2485,9 @@
         "whatsapp": "903420220102",
         "email": "ofis@ekvit.example",
         "hours": {
-          "tr": "Pzt–Cmt 09:00 – 18:00",
-          "en": "Mon–Sat 09:00 – 18:00",
-          "ar": "الاثنين–السبت 09:00 – 18:00"
+          "tr": "Hafta içi 09:00 – 18:00 (randevulu)",
+          "en": "Weekdays 09:00 – 18:00 (by appointment)",
+          "ar": "أيام الأسبوع 09:00 – 18:00 (بموعد)"
         },
         "mapUrl": "",
         "mapEmbed": "",
@@ -2477,8 +2528,8 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
+          "tr": "Talep formu",
+          "en": "Request form",
           "ar": "نموذج الطلب"
         },
         "nameLabel": {
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "İhale dosyası",
+              "en": "Tender file",
+              "ar": "ملف مناقصة"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Uygunluk incelemesi",
+              "en": "Compliance review",
+              "ar": "مراجعة الامتثال"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Başvuru takibi",
+              "en": "Application follow-up",
+              "ar": "متابعة الطلبات"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,9 +2691,9 @@
           "ar": "Ekvit Ofis"
         },
         "description": {
-          "tr": "Ekvit Ofis, ofis ve tedarik sağlar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Ekvit supplies office goods. Images are representative and text is fictional.",
-          "ar": "يوفر إكفيت مستلزمات مكتبية. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Ekvit Ofis; kamu kurumları, belediyeler ve kamuyla çalışan firmalar için ihale dosyası hazırlığı, mevzuat uygunluk incelemesi ve başvuru takibi sunan bir danışmanlık ofisidir. Görseller temsilidir; metinler kurgusaldır.",
+          "en": "Ekvit Ofis is a consulting office offering tender file preparation, regulatory compliance review and application follow-up for public bodies, municipalities and firms that work with the public sector. Images are representative and text is fictional.",
+          "ar": "مكتب إكفيت مكتب استشارات يقدّم إعداد ملفات المناقصات ومراجعة الامتثال للتشريعات ومتابعة الطلبات للجهات العامة والبلديات والشركات التي تتعامل مع القطاع العام. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
           "tr": "Dosya masası",
@@ -2653,18 +2705,18 @@
           "en": "Every file at one desk; signature and date record.",
           "ar": "كل ملف على مكتب واحد؛ سجل التوقيع والتاريخ."
         },
-        "icon2": "verified",
+        "icon2": "folder_open",
         "name3": {
-          "tr": "Bulgu defteri",
-          "en": "Findings book",
-          "ar": "دفتر النتائج"
+          "tr": "Süre takvimi",
+          "en": "Deadline calendar",
+          "ar": "تقويم المواعيد"
         },
         "spot3": {
-          "tr": "Her dönem bulgu kaydı ve açıklama.",
-          "en": "A findings record and explanation for each period.",
-          "ar": "سجل النتائج وشرح لكل فترة."
+          "tr": "İhale, başvuru ve itiraz süreleri tek takvimde.",
+          "en": "Tender, application and objection deadlines in one calendar.",
+          "ar": "مواعيد المناقصات والطلبات والاعتراضات في تقويم واحد."
         },
-        "icon3": "schedule",
+        "icon3": "event",
         "img": "hukuk-buro-1.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
@@ -2729,9 +2781,9 @@
           "ar": "تواصل معنا"
         },
         "description": {
-          "tr": "Pzt–Cmt 09:00 – 18:00",
-          "en": "Mon–Sat 09:00 – 18:00",
-          "ar": "الاثنين–السبت 09:00 – 18:00"
+          "tr": "Hafta içi 09:00 – 18:00 (randevulu)",
+          "en": "Weekdays 09:00 – 18:00 (by appointment)",
+          "ar": "أيام الأسبوع 09:00 – 18:00 (بموعد)"
         },
         "phone": "+90 342 022 01 02",
         "whatsapp": "903420220102",
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Hafta içi 09:00 – 18:00 (randevulu)",
+          "en": "Weekdays 09:00 – 18:00 (by appointment)",
+          "ar": "أيام الأسبوع 09:00 – 18:00 (بموعد)"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2847,19 +2899,19 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "6px",
         "title": {
-          "tr": "Ofis boş kalmadan",
-          "en": "Before the office runs out",
-          "ar": "قبل نفاد المكتب"
+          "tr": "Süreler kaçmadan",
+          "en": "Before deadlines slip",
+          "ar": "قبل أن تفوت المواعيد"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "Dosyanız için görüşme talep edin; iki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
+          "en": "Request a meeting about your file; we reply within two business days. No data is stored on this demo site.",
+          "ar": "اطلب اجتماعًا بخصوص ملفك؛ نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Görüşme talep et",
+          "en": "Request a meeting",
+          "ar": "اطلب اجتماعًا"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
@@ -2881,9 +2933,9 @@
           "ar": "راسلنا عبر واتساب"
         },
         "hours": {
-          "tr": "Pzt–Cmt 09:00 – 18:00",
-          "en": "Mon–Sat 09:00 – 18:00",
-          "ar": "الاثنين–السبت 09:00 – 18:00"
+          "tr": "Hafta içi 09:00 – 18:00 (randevulu)",
+          "en": "Weekdays 09:00 – 18:00 (by appointment)",
+          "ar": "أيام الأسبوع 09:00 – 18:00 (بموعد)"
         },
         "hoursLabel": {
           "tr": "Çalışma saatleri",
@@ -2947,7 +2999,7 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "6px",
         "logo_maxh": "52px",
-        "logo_plate": false,
+        "logo_plate": true,
         "about": {
           "tr": "Ekvit Ofis demo temadır; içerik kurgusaldır.",
           "en": "Ekvit Ofis is a demo theme; the content is fictional.",

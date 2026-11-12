@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Dosyadan rapora; vadesinden sonrasına.",
-        "en": "From file to report; from deadline to beyond.",
-        "ar": "من الملف إلى التقرير؛ من الميعاد إلى ما بعده."
+        "tr": "Dosya hazırlığından başvuru takibine; süreler kaçmasın diye.",
+        "en": "From file preparation to application follow-up, so that deadlines are not missed.",
+        "ar": "من إعداد الملف إلى متابعة الطلب، حتى لا تفوت المواعيد."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -49,9 +49,9 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Ofis ve tedarik; görseller temsilîdir.",
-        "en": "Office and supplies; images are representative.",
-        "ar": "مكتب وتوريد؛ الصور تمثيلية."
+        "tr": "Kamu danışmanlığı; görseller temsilîdir.",
+        "en": "Public-sector consulting; images are representative.",
+        "ar": "استشارات القطاع العام؛ الصور تمثيلية."
       }
     },
     {

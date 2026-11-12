@@ -21,9 +21,9 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Ofis ve tedarik; görseller temsilîdir.",
-    "en": "Office and supplies; images are representative.",
-    "ar": "مكتب وتوريد؛ الصور تمثيلية."
+    "tr": "Kamu danışmanlığı; görseller temsilîdir.",
+    "en": "Public-sector consulting; images are representative.",
+    "ar": "استشارات القطاع العام؛ الصور تمثيلية."
   },
   "spot": {
     "tr": "",
@@ -42,6 +42,6 @@
     "ar": "من نحن"
   },
   "text": {},
-  "update": "2026-11-05T23:44:37.281Z",
+  "update": "2026-11-12T07:36:13.608Z",
   "date": "2026-10-30"
 }
