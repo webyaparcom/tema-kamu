@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Ofis ve tedarik; görseller temsilîdir.",
-    "en": "Office and supplies; images are representative.",
-    "ar": "مكتب وتوريد؛ الصور تمثيلية."
+    "tr": "Kamu kurumları ve belediyeler için ihale dosyası, mevzuat uygunluğu ve başvuru takibi danışmanlığı; görseller temsilîdir.",
+    "en": "Tender file, regulatory compliance and application follow-up consulting for public bodies and municipalities; images are representative.",
+    "ar": "استشارات إعداد ملفات المناقصات والامتثال للتشريعات ومتابعة الطلبات للجهات العامة والبلديات؛ الصور تمثيلية."
   },
   "keyword": {
-    "tr": "ofis, tedarik, malzeme",
-    "en": "office, supplies, material",
-    "ar": "مكتب، توريد، مواد"
+    "tr": "kamu danışmanlığı, ihale dosyası, mevzuat uygunluğu, başvuru takibi, belediye",
+    "en": "public sector consulting, tender file, compliance, application follow-up, municipality",
+    "ar": "استشارات القطاع العام، ملف المناقصة، الامتثال، متابعة الطلبات، بلدية"
   },
   "category": "Kurumsal",
   "name": "Ekvit Ofis",

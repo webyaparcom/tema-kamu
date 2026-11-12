@@ -27,9 +27,9 @@
   "index": 2,
   "url": "",
   "text": {
-    "tr": "<h2>Kalite Politikamız</h2>\n<p>Net metin, ölçülü veri ve kayıt kültürü esastır.</p>",
-    "en": "<h2>Our quality policy</h2>\n<p>Clear text, measured data and a record culture are essential.</p>",
-    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>النص الواضح والبيانات المتوازنة وثقافة السجل أساسية.</p>"
+    "tr": "<h2>Kalite Politikamız</h2>\n<p>Her dosyada belge listesi, imza ve tarih kaydı tutulur; gizlilik esastır; sonuç garantisi verilmez.</p>",
+    "en": "<h2>Our quality policy</h2>\n<p>Every file keeps a document list and signature and date records; confidentiality is essential; no outcome is guaranteed.</p>",
+    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>يُحتفظ لكل ملف بقائمة مستندات وسجل توقيع وتاريخ؛ والسرية أساسية؛ ولا يُضمَن أي نتيجة.</p>"
   },
   "title": {
     "tr": "Kalite Politikamız",
@@ -37,7 +37,7 @@
     "ar": "سياسة الجودة"
   },
   "date": "2026-11-05T18:57:23.753Z",
-  "update": "2026-11-05T23:44:37.301Z",
+  "update": "2026-11-12T07:36:13.632Z",
   "sablonIzi": "acedf6b7c400faec",
   "sablonIziDil": {
     "en": "587042c99dce90ca",

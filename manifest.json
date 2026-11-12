@@ -1,7 +1,7 @@
 {
   "name": "Ekvit Ofis",
   "short_name": "Ekvit Ofis",
-  "description": "Ofis ve tedarik; görseller temsilîdir.",
+  "description": "Kamu kurumları ve belediyeler için ihale dosyası, mevzuat uygunluğu ve başvuru takibi danışmanlığı; görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",
